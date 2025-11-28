@@ -55,18 +55,6 @@ const Home = () => {
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
               A real-time, web-based Digital Twin solution designed to eliminate fragmented machine data and empower manufacturing teams with centralized visibility, KPI monitoring, and actionable operational insights.
             </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link to="/executive-summary">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-                  Explore Project <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
-              <Link to="/dashboard">
-                <Button size="lg" variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-800">
-                  View Dashboard
-                </Button>
-              </Link>
-            </div>
           </div>
         </div>
       </section>
