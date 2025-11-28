@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/twinnexline/static/css/main.8ef26db9.css",
+    "main.js": "/twinnexline/static/js/main.6aba0412.js",
+    "index.html": "/twinnexline/index.html",
+    "main.8ef26db9.css.map": "/twinnexline/static/css/main.8ef26db9.css.map",
+    "main.6aba0412.js.map": "/twinnexline/static/js/main.6aba0412.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ef26db9.css",
+    "static/js/main.6aba0412.js"
+  ]
+}
