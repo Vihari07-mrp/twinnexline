@@ -5,11 +5,11 @@ import { Card, CardContent } from '../components/ui/card';
 
 const Home = () => {
   const teamMembers = [
-    'Sowmya Rao Darineni',
     'Vihari Sai Krishna Reddy Mallidi',
-    'Sana Mohammad',
     'Sarun Subbaraju Nadimpalli',
-    'Jayanth Kalyan Velugubantla'
+    'Jayanth Kalyan Velugubantla',
+    'Sana Mohammad',
+    'Sowmya Rao Darineni'
   ];
 
   const features = [
