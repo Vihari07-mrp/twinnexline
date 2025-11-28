@@ -135,14 +135,9 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Explore the Solution?
           </h2>
-          <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-blue-100 text-lg max-w-2xl mx-auto">
             Discover how our Digital Twin prototype transforms manufacturing operations through data-driven insights
           </p>
-          <Link to="/executive-summary">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
-              Get Started <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </Link>
         </div>
       </section>
     </div>
