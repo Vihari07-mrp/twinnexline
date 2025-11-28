@@ -63,15 +63,21 @@ const Home = () => {
       <section className="py-16 bg-slate-800/50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-white text-center mb-12">Project Team</h2>
-          <div className="flex flex-wrap justify-center gap-6">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="px-6 py-3 bg-slate-700/50 border border-slate-600 rounded-lg hover:border-blue-500/50 transition-all duration-300"
-              >
-                <p className="text-slate-200 font-medium">{member}</p>
-              </div>
-            ))}
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-slate-700/30 border border-slate-600 rounded-xl overflow-hidden">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_twin-dashboard-2/artifacts/6ja8avwb_image.png"
+                alt="Nexline Digital Twin Project Team"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="mt-8 grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+              {teamMembers.map((member, index) => (
+                <div key={index} className="text-slate-300 text-sm">
+                  {member}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
