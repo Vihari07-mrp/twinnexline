@@ -17,7 +17,8 @@ import Lessons from './pages/Lessons';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* ✅ Use your repo name as basename to ensure routing works correctly */}
+      <BrowserRouter basename="/twinnexline">
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
